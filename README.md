@@ -1,14 +1,14 @@
 # NMOM  
-This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'      
+This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'        
 ## Directory structure  
-Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results.     
+Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.       
 - henon-1-dimension  
-  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,  
+  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,    
         $$
        \begin{aligned}  
-        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) &= 0, \quad x \in \Omega\\      
-        u(x) &= 0,  \quad  x \in \partial \Omega 
-       \end{aligned}    
+        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) &= 0, \quad x \in \Omega\\        
+        u(x) &= 0,  \quad  x \in \partial \Omega   
+       \end{aligned}      
        $$        
   + Files: 
     * Comp_henon_1d.m  --- the main matlab code
