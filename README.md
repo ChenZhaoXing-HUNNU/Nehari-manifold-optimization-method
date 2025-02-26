@@ -1,14 +1,14 @@
 # NMOM  
-This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'    
+This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'      
 ## Directory structure  
-Each folder in this repository corresponds to a specific numeric test, and contains the scripts required to reproduce the results.    
-- henon-1-dimension
-  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,
+Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results.     
+- henon-1-dimension  
+  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,  
         $$
        \begin{aligned}  
         u''(x) + |x|^{l} |u(x)|^{p-1}u(x) &= 0, \quad x \in \Omega\\      
         u(x) &= 0,  \quad  x \in \partial \Omega 
-       \end{aligned}  
+       \end{aligned}    
        $$        
   + Files: 
     * Comp_henon_1d.m  --- the main matlab code
@@ -18,7 +18,7 @@ Each folder in this repository corresponds to a specific numeric test, and conta
     * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization      
  
 - henon-2-dimension
-  + Contains codes for computing the ground state solution of the H\'enon equation in $\Omega = \{(x,y):x^2+y^2<1\}$, 
+  + Contains codes for computing the ground state solution of the H\'enon equation in $\Omega = \{(x,y):x^2+y^2<1\}$,   
      
     $$
     \begin{aligned}
@@ -53,7 +53,7 @@ Each folder in this repository corresponds to a specific numeric test, and conta
   + Files:
     * Comp_NLSE_2d.m --- the main matlab code
     * get_KM.m --- get the stiffness matrix and mass matrix by FEM
-    * Rie_grad.m --- compute the Riemannian gradient of the energy functional  
+    * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
     * Retraction.m --- retraction mapping  
     * inp.m --- the H-inner product.
     * Sol_Poisson.m --- solve the poisson equation related to the Riemannian gradient  
@@ -76,8 +76,11 @@ Each folder in this repository corresponds to a specific numeric test, and conta
     * Cof_Comp2.m --- the main matlab codes  
     * NMOM.m----- Nehari manifold optimization algorithm under fixed step-size and descent direction  
     * nm_NMOM.m --- Nehari manifold optimization algorithm under nonmonotone step-size and descent direction  
-    * LMM.m----- Local minimax under fixed step-size and descent direction  
+    * LMM.m----- Local minimax under fixed step-size and descent direction    
     * nm_LMM.m --- Local minimax algorithm under nonmonotone step-size and descent direction    
     * inp.m --- Inner product ( , )_H  
-    * dst2.m --- Two-dimensional discrete sine Transform.  
-    * idst2.m --- Two-dimensional inverse discrete sine transform.  
+    * dst2.m --- Two-dimensional discrete sine Transform.            
+    * idst2.m --- Two-dimensional inverse discrete sine transform.
+
+## Requirements
+Please ensure that your version of MATLAB is R2016a or later before running the script
