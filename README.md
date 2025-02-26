@@ -4,25 +4,27 @@ This repository contains the Matlab codes used to reproduce the results presente
 Each folder in this repository corresponds to a specific numeric test, and contains the scripts required to reproduce the results.    
 - henon-1-dimension
  + Contains codes for computing the ground state solution of  the H\'enon equation :
-       
-        $$ u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, (x)\in \Omega = (-1,1) $$
-   
-                               $$ u(x) = 0,   (x) \in \partial \Omega  $$    
+        $$
+       \begin{aligned}
+        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) &= 0, (x)\in \Omega = (-1,1) \\      
+        u(x) = 0,   (x) \in \partial \Omega
+       \end{aligned}  
+       $$        
 + Files: 
   * Comp_henon_1d.m  --- the main matlab code
   * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
-  * Retraction.m --- retraction mapping  
+  * Retraction.m --- retraction mapping    
   * BB_alpha2.m --- compute the BB step-size  
   * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization    
  
 - henon-2-dimension
   + Contains codes for computing the ground state solution of the H\'enon equation:
      
-    $$\Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0, (x,y)\in \Omega = \{(x,y):x^2+y^2<1\} $$
+    $$\Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0, (x,y)\in \Omega = \{(x,y):x^2+y^2<1\} $$  
         
-                                $$u(x,y) = 0,   (x,y) \in \partial  $$  
+                                $$u(x,y) = 0,   (x,y) \in \partial  $$    
   + Files:
-    * Comp_henon_2d.m  --- the main matlab code
+    * Comp_henon_2d.m  --- the main matlab code  
     * get_Amatrix.m --- get the required matrix by the spectral-Galerkin
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional  
     * Retraction.m --- retraction mapping  
