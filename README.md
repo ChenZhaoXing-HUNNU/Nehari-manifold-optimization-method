@@ -1,36 +1,36 @@
 # NMOM  
-This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'        
+This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'          
 ## Directory structure  
 Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.       
 - henon-1-dimension  
-  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,    
-        $$
+  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,      
+    $$
        \begin{aligned}  
         u''(x) + |x|^{l} |u(x)|^{p-1}u(x) &= 0, \quad x \in \Omega\\        
         u(x) &= 0,  \quad  x \in \partial \Omega   
-       \end{aligned}      
-       $$        
+       \end{aligned}        
+    $$        
   + Files: 
-    * Comp_henon_1d.m  --- the main matlab code
+    * Comp_henon_1d.m  --- the main matlab code  
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
     * Retraction.m --- retraction mapping      
     * BB_alpha2.m --- compute the BB step-size  
     * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization      
  
-- henon-2-dimension
+- henon-2-dimension  
   + Contains codes for computing the ground state solution of the H\'enon equation in $\Omega = \{(x,y):x^2+y^2<1\}$,   
      
     $$
     \begin{aligned}
     \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) & = 0, \quad (x,y)\in \Omega  \\      
     u(x,y) &= 0,  \quad  (x,y) \in \partial \Omega 
-    \end{aligned}
+    \end{aligned}  
     $$      
   + Files:
     * Comp_henon_2d.m  --- the main matlab code  
-    * get_Amatrix.m --- get the required matrix by the spectral-Galerkin
-    * Rie_grad.m --- compute the Riemannian gradient of the energy functional  
-    * Retraction.m --- retraction mapping  
+    * get_Amatrix.m --- get the required matrix by the spectral-Galerkin  
+    * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
+    * Retraction.m --- retraction mapping    
     * LGL_pw.m --- Legendre-Gauss-Lobatto quadrature nodes and weights  
     * inp.m --- the H-inner product.  
     * Sol_Poisson.m --- solve the poisson equation related to the Riemannian gradient
@@ -38,17 +38,17 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Comp_dlc.m --- compute the coefficient under Legendre polynomial   
     * LegendreP.m ---compute the value n-Legendre in x  
     * Integ.m --- compute the integration in $ Omega $  
-    * BB_alpha2.m --- compute the BB step-size  
+    * BB_alpha2.m --- compute the BB step-size    
     * Plot_czx.m --- plot the profile of the solution  
     * Get_deci.m --- Set the decimal place  
 
 - NLSE-2-dimension
   + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation in $\Omega = (-1,1)^2$,
-          $$ 
+         $$ 
           \begin{aligned}
-          - \Delta u(x,y) + V(x,y)u(x,y)  & = u^3(x,y) ,  \quad (x,y)\in \Omega \\
+          - \Delta u(x,y) + V(x,y)u(x,y)  & = u^3(x,y) ,  \quad (x,y)\in \Omega \\  
            u(x,y) & = 0,  \quad \quad \quad \quad  (x,y) \in \partial \Omega 
-         \end{aligned} 
+          \end{aligned}   
          $$
   + Files:
     * Comp_NLSE_2d.m --- the main matlab code
@@ -59,7 +59,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Sol_Poisson.m --- solve the poisson equation related to the Riemannian gradient  
     * elestiff_V.m --- get the element mass matrix with variable coefficient V(x,y)  
     * gausspw.m --- get the Guass points and weights  
-    * BB_alpha2.m --- compute the BB step-size  
+    * BB_alpha2.m --- compute the BB step-size    
     * Plot_czx.m --- plot the profile of the solution  
     * Get_deci.m --- Set the decimal place  
     * V.m -- define the variable coefficient in NLSE   
@@ -70,8 +70,8 @@ Each folder in this repository corresponds to a specific numerical test, and con
     $$ 
     \begin{aligned} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) &= 0 ,  \quad (x,y)\in \Omega \\
       u(x,y) &= 0,  \quad  (x,y) \in \partial \Omega 
-      \end{aligned} 
-      $$
+    \end{aligned}   
+    $$
   + Files:
     * Cof_Comp2.m --- the main matlab codes  
     * NMOM.m----- Nehari manifold optimization algorithm under fixed step-size and descent direction  
