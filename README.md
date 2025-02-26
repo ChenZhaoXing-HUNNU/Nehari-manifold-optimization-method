@@ -3,15 +3,17 @@ This repository contains the Matlab codes used to reproduce the results presente
 ## Directory structure  
 Each folder in this repository corresponds to a specific numeric test, and contains the scripts required to reproduce the results.    
 - henon-1-dimension
- + Contains codes for computing the ground state solution of  the H\'enon equation :     
-        $$ u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, (x)\in \Omega = (-1,1) $$  
-                               $$ u(x) = 0,   (x) \in \partial \Omega  $$  
+ + Contains codes for computing the ground state solution of  the H\'enon equation :
+       
+        $$ u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, (x)\in \Omega = (-1,1) $$
+   
+                               $$ u(x) = 0,   (x) \in \partial \Omega  $$    
 + Files: 
   * Comp_henon_1d.m  --- the main matlab code
   * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
   * Retraction.m --- retraction mapping  
   * BB_alpha2.m --- compute the BB step-size  
-  * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization  
+  * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization    
  
 - henon-2-dimension
   + Contains codes for computing the ground state solution of the H\'enon equation:
@@ -36,8 +38,10 @@ Each folder in this repository corresponds to a specific numeric test, and conta
     * Get_deci.m --- Set the decimal place  
 
 - NLSE-2-dimension
-  + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation :   
+  + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation :
+    
           $$ - \Delta u(x,y) + V(x,y)u(x,y)   = u(x,y)^3 , (x,y)\in \Omega = (-1,1)^2  $$
+    
                                 $$ u(x,y) = 0,   (x,y) \in \partial \Omega  $$
   + Files:
     * Comp_NLSE_2d.m --- the main matlab code
@@ -56,7 +60,9 @@ Each folder in this repository corresponds to a specific numeric test, and conta
 
 - Comparison_LMM_NMOM
   + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of:
-    $$ \Delta u(x,y) + |x^1+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) , (x,y)\in \Omega = (-L,L)^2 $$  
+    
+    $$ \Delta u(x,y) + |x^1+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) , (x,y)\in \Omega = (-L,L)^2 $$
+    
                               $$  u(x,y) = 0,   (x,y) \in \partial \Omega $$
   + Files:
     * Cof_Comp2.m --- the main matlab codes  
