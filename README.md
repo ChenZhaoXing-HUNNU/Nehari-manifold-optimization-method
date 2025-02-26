@@ -20,7 +20,7 @@ Each folder in this repository corresponds to a specific numeric test, and conta
 - henon-2-dimension
   + Contains codes for computing the ground state solution of the H\'enon equation:  
      
-    $$\Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0, (x,y)\in \Omega = \{(x,y):x^2+y^2<1\} $$    
+    $$\Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0, (x,y)\in \Omega = \{(x,y):x^2+y^2<1\} $$      
         
                                 $$u(x,y) = 0,   (x,y) \in \partial \Omega $$      
   + Files:
