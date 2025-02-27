@@ -12,8 +12,8 @@ Each folder in this repository corresponds to a specific numerical test, and con
            
     $$
        \begin{cases}        
-        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, \; &x \in \Omega,\\\                    
-        u(x) = 0,   &x \in \partial \Omega.          
+        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0,  &x \in \Omega,\\\                      
+        u(x) = 0,   &x \in \partial \Omega.            
        \end{cases}                  
     $$
     
@@ -29,7 +29,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
      
     $$
     \begin{cases}      
-    \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y)  = 0, \; &(x,y)\in \Omega, \\\              
+    \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y)  = 0,  &(x,y)\in \Omega, \\\                
      u(x,y) = 0,    &(x,y) \in \partial \Omega.   
     \end{cases}            
     $$
@@ -55,7 +55,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     
     $$ 
     \begin{cases}      
-     -\Delta u(x,y) + V(x,y)u(x,y)   = u^3(x,y) ,  \; &(x,y)\in \Omega, \\\            
+     -\Delta u(x,y) + V(x,y)u(x,y)   = u^3(x,y) ,  &(x,y)\in \Omega, \\\              
      u(x,y)  = 0,   &(x,y) \in \partial \Omega.         
     \end{cases}
     $$
@@ -67,7 +67,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Retraction.m --- retraction mapping    
     * inp.m --- the H-inner product.  
     * Sol_Poisson.m --- solve the poisson equation related to the Riemannian gradient  
-    * elestiff_V.m --- get the element mass matrix with variable coefficient V(x,y)    
+    * elestiff_V.m --- get the element mass matrix with variable coefficient V(x,y)      
     * gausspw.m --- get the Guass points and weights    
     * BB_alpha2.m --- compute the BB step-size        
     * Plot_czx.m --- plot the profile of the solution      
@@ -76,10 +76,10 @@ Each folder in this repository corresponds to a specific numerical test, and con
 
 
 - Comparison_LMM_NMOM    
-  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2$,        
+  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2$,          
   
     $$ 
-    \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0 ,  \; &(x,y)\in \Omega, \\\        
+    \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0 ,   &(x,y)\in \Omega, \\\          
       u(x,y) = 0,   &(x,y) \in \partial \Omega.       
     \end{cases}               
     $$
