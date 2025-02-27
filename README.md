@@ -11,7 +11,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
             
     $$
        \begin{cases}    
-        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, \; &x \in \Omega,\\        
+        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, \; &x \in \Omega,\\\        
         u(x) = 0,   &x \in \partial \Omega.    
        \end{cases}            
     $$
