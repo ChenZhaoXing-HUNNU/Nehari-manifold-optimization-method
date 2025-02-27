@@ -6,12 +6,12 @@ Each folder in this repository corresponds to a specific numerical test, and con
   + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,      
     $$
        \begin{cases}    
-        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) &= 0, \quad x \in \Omega\\        
-        u(x) &= 0,  \quad  x \in \partial \Omega   
+        u''(x) + |x|^{l} |u(x)|^{p-1}u(x) = 0, \; &x \in \Omega\\        
+        u(x) = 0,   &x \in \partial \Omega   
        \end{cases}          
     $$        
   + Files: 
-    * Comp_henon_1d.m  --- the main matlab code    
+    * Comp_henon_1d.m  --- the main matlab file   
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
     * Retraction.m --- retraction mapping      
     * BB_alpha2.m --- compute the BB step-size  
@@ -22,12 +22,12 @@ Each folder in this repository corresponds to a specific numerical test, and con
      
     $$
     \begin{cases}  
-    \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) & = 0, \quad (x,y)\in \Omega  \\        
-    u(x,y) &= 0,  \quad  (x,y) \in \partial \Omega 
+    \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y)  = 0, \; &(x,y)\in \Omega  \\        
+     u(x,y) = 0,    &(x,y) \in \partial \Omega 
     \end{cases}    
     $$      
   + Files:
-    * Comp_henon_2d.m  --- the main matlab code  
+    * Comp_henon_2d.m  --- the main matlab file 
     * get_Amatrix.m --- get the required matrix by the spectral-Galerkin  
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
     * Retraction.m --- retraction mapping    
@@ -46,12 +46,12 @@ Each folder in this repository corresponds to a specific numerical test, and con
   + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation in $\Omega = (-1,1)^2$,
          $$ 
           \begin{cases}  
-          - \Delta u(x,y) + V(x,y)u(x,y)  & = u^3(x,y) ,  \quad (x,y)\in \Omega \\  
-           u(x,y) & = 0,  \quad \quad \quad \quad  (x,y) \in \partial \Omega   
+          - \Delta u(x,y) + V(x,y)u(x,y)   = u^3(x,y) ,  \; &(x,y)\in \Omega \\  
+           u(x,y)  = 0,   &(x,y) \in \partial \Omega   
           \end{cases}     
          $$
   + Files:
-    * Comp_NLSE_2d.m --- the main matlab code
+    * Comp_NLSE_2d.m --- the main matlab file
     * get_KM.m --- get the stiffness matrix and mass matrix by FEM
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional    
     * Retraction.m --- retraction mapping    
@@ -68,12 +68,12 @@ Each folder in this repository corresponds to a specific numerical test, and con
 - Comparison_LMM_NMOM
   + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2$, 
     $$ 
-    \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) &= 0 ,  \quad (x,y)\in \Omega \\  
-      u(x,y) &= 0,  \quad  (x,y) \in \partial \Omega 
+    \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0 ,  \; &(x,y)\in \Omega \\  
+      u(x,y) = 0,   &(x,y) \in \partial \Omega 
     \end{cases}     
     $$
   + Files:
-    * Cof_Comp2.m --- the main matlab codes  
+    * Cof_Comp2.m --- the main matlab file 
     * NMOM.m----- Nehari manifold optimization algorithm under fixed step-size and descent direction  
     * nm_NMOM.m --- Nehari manifold optimization algorithm under nonmonotone step-size and descent direction  
     * LMM.m----- Local minimax under fixed step-size and descent direction    
