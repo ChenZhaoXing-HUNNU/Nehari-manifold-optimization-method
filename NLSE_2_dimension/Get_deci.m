@@ -1,6 +1,6 @@
 function need_str = Get_deci(a,n)
-%给定一个小数，得到保留小数点后n位的数，返回其字符串。 
-num = floor(a);
+%%% Given a decimal a, obtain the number with n decimal places and return the string 聽 
+num = floor(a);聽 
 str = num2str(num);
 len = length(str);
 str1 = num2str(a);
