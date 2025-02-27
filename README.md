@@ -25,7 +25,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization        
  
 - henon-2-dimension  
-  + Contains codes for computing the ground state solution of the H\'enon equation in $ \Omega =$ { $(x,y):x^2+y^2<1$ } ,                 
+  + Contains codes for computing the ground state solution of the H\'enon equation in $ \Omega =$ { $ (x,y) : x^2 + y^2 < 1 $ },                   
      
     $$
     \begin{cases}      
