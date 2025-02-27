@@ -6,9 +6,9 @@ This repository contains the Matlab codes used to reproduce the results presente
 <center> Zhaoxing Chen, Wei Liu, Ziqing Xie, and Wenfan Yi </center> 
 
 ## Directory structure      
-Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.                 
+Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.                   
 - henon-1-dimension  
-  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $ ,    
+  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $ ,      
            
     $$
        \begin{cases}        
@@ -25,7 +25,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization        
  
 - henon-2-dimension  
-  + Contains codes for computing the ground state solution of the H\'enon equation in $ \Omega = { (x,y):x^2+y^2<1 }$ ,               
+  + Contains codes for computing the ground state solution of the H\'enon equation in $ \Omega =$ { $(x,y):x^2+y^2<1$ } ,                 
      
     $$
     \begin{cases}      
