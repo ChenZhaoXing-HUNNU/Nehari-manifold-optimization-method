@@ -1,7 +1,6 @@
 # NMOM  
 This repository contains the Matlab codes used to reproduce the results presented in the paper   
- <center> Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs </center> \\\\\\
- 
+ <center> Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs </center> 
 <center> Zhaoxing Chen, Wei Liu, Ziqing Xie, and Wenfan Yi </center> 
 
 ## Directory structure    
@@ -28,10 +27,11 @@ Each folder in this repository corresponds to a specific numerical test, and con
      
     $$
     \begin{cases}  
-    \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y)  = 0, \; &(x,y)\in \Omega,  \\        
+    \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y)  = 0, \; &(x,y)\in \Omega,  \\\        
      u(x,y) = 0,    &(x,y) \in \partial \Omega. 
     \end{cases}    
-    $$      
+    $$
+       
   + Files:
     * Comp_henon_2d.m  --- the main matlab file 
     * get_Amatrix.m --- get the required matrix by the spectral-Galerkin  
@@ -50,12 +50,14 @@ Each folder in this repository corresponds to a specific numerical test, and con
 
 - NLSE-2-dimension
   + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation in $\Omega = (-1,1)^2$,
+  + 
          $$ 
           \begin{cases}  
-          - \Delta u(x,y) + V(x,y)u(x,y)   = u^3(x,y) ,  \; &(x,y)\in \Omega, \\    
+          - \Delta u(x,y) + V(x,y)u(x,y)   = u^3(x,y) ,  \; &(x,y)\in \Omega, \\\    
            u(x,y)  = 0,   &(x,y) \in \partial \Omega.   
           \end{cases}     
          $$
+    
   + Files:
     * Comp_NLSE_2d.m --- the main matlab file
     * get_KM.m --- get the stiffness matrix and mass matrix by FEM
@@ -72,12 +74,14 @@ Each folder in this repository corresponds to a specific numerical test, and con
 
 
 - Comparison_LMM_NMOM
-  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2$, 
+  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2$,
+  + 
     $$ 
     \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0 ,  \; &(x,y)\in \Omega, \\  
-      u(x,y) = 0,   &(x,y) \in \partial \Omega.   
+      u(x,y) = 0,   &(x,y) \in \partial \Omega.   \\\
     \end{cases}     
     $$
+    
   + Files:
     * Cof_Comp2.m --- the main matlab file 
     * NMOM.m----- Nehari manifold optimization algorithm under fixed step-size and descent direction  
