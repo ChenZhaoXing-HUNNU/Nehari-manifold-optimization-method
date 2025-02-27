@@ -36,7 +36,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
        
   + Files:
     * Comp_henon_2d.m  --- the main matlab file 
-    * get_Amatrix.m --- get the required matrix by the spectral-Galerkin  
+    * get_Amatrix.m --- get the required matrix by the spectral-Galerkin    
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional        
     * Retraction.m --- retraction mapping    
     * LGL_pw.m --- Legendre-Gauss-Lobatto quadrature nodes and weights  
@@ -86,12 +86,12 @@ Each folder in this repository corresponds to a specific numerical test, and con
     
   + Files:  
     * Cof_Comp2.m --- the main matlab file 
-    * NMOM.m----- Nehari manifold optimization algorithm under fixed step-size and descent direction      
-    * nm_NMOM.m --- Nehari manifold optimization algorithm under nonmonotone step-size and descent direction  
-    * LMM.m----- Local minimax under fixed step-size and descent direction    
-    * nm_LMM.m --- Local minimax algorithm under nonmonotone step-size and descent direction      
+    * NMOM.m --- Nehari manifold optimization algorithm under fixed step-size and descent direction        
+    * nm_NMOM.m --- Nehari manifold optimization algorithm under nonmonotone step-size and descent direction    
+    * LMM.m --- Local minimax under fixed step-size and descent direction      
+    * nm_LMM.m --- Local minimax algorithm under nonmonotone step-size and descent direction        
     * inp.m --- Inner product ( , )_H  
-    * dst2.m --- Two-dimensional discrete sine Transform.              
+    * dst2.m --- Two-dimensional discrete sine Transform.                
     * idst2.m --- Two-dimensional inverse discrete sine transform.  
 
 ## Requirements
