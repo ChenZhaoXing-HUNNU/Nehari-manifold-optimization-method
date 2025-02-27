@@ -51,7 +51,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Get_deci.m --- Set the decimal place    
 
 - NLSE-2-dimension
-  + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation in $ \Omega = (-1,1)^2 $ ,    
+  + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation in $\Omega = (-1,1)^2 $ ,      
     
     $$ 
     \begin{cases}      
@@ -64,19 +64,19 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Comp_NLSE_2d.m --- the main matlab file
     * get_KM.m --- get the stiffness matrix and mass matrix by FEM    
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional      
-    * Retraction.m --- retraction mapping    
+    * Retraction.m --- retraction mapping      
     * inp.m --- the H-inner product.  
     * Sol_Poisson.m --- solve the poisson equation related to the Riemannian gradient  
     * elestiff_V.m --- get the element mass matrix with variable coefficient V(x,y)      
     * gausspw.m --- get the Guass points and weights    
-    * BB_alpha2.m --- compute the BB step-size        
+    * BB_alpha2.m --- compute the BB step-size          
     * Plot_czx.m --- plot the profile of the solution      
     * Get_deci.m --- Set the decimal place  
     * V.m -- define the variable coefficient in NLSE     
 
 
 - Comparison_LMM_NMOM    
-  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2$,          
+  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2 $,            
   
     $$ 
     \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0 ,   &(x,y)\in \Omega, \\\          
