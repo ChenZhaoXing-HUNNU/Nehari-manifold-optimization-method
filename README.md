@@ -1,7 +1,9 @@
 # NMOM  
-This repository contains the Matlab codes used to reproduce the results presented in the paper 'Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs'          
+This repository contains the Matlab codes used to reproduce the results presented in the paper 
+ Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs 
+ Zhaoxing Chen, Wei Liu, Ziqing Xie, and Wenfan Yi
 ## Directory structure  
-Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.       
+Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.         
 - henon-1-dimension  
   + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $,      
     $$
