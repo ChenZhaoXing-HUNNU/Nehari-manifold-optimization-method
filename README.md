@@ -37,8 +37,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     $$
        
   + Files:
-    * Comp_henon_1d.m  --- the main matlab file for compare nmNMOM and nmLMM
-    * Comp_henon_2d.m  --- the main matlab file for compare NMOM and LMM
+    * Comp_henon_2d.m  --- the main matlab file
     * get_Amatrix.m --- get the required matrix by the spectral-Galerkin    
     * Rie_grad.m --- compute the Riemannian gradient of the energy functional        
     * Retraction.m --- retraction mapping    
@@ -87,8 +86,9 @@ Each folder in this repository corresponds to a specific numerical test, and con
     \end{cases}               
     $$
     
-  + Files:  
-    * Cof_Comp2.m --- the main matlab file 
+  + Files:
+    * Cof_Comp1.m  --- the main matlab file for comparing nmNMOM and nmLMM
+    * Cof_Comp2.m --- the main matlab file for comparing NMOM and LMM
     * NMOM.m --- Nehari manifold optimization algorithm under fixed step-size and descent direction        
     * nm_NMOM.m --- Nehari manifold optimization algorithm under nonmonotone step-size and descent direction    
     * LMM.m --- local minimax under fixed step-size and descent direction      
