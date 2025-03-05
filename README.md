@@ -1,10 +1,12 @@
 # NMOM  
-This repository contains the Matlab codes used to reproduce the results presented in the paper   
+This repository contains the Matlab codes used to reproduce the results presented in the paper 
  <center> Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs </center> <br>    
  
 
  
 <center> Zhaoxing Chen, Wei Liu, Ziqing Xie, and Wenfan Yi </center> 
+
+https://arxiv.org/abs/2404.09892   
 
 ## Directory structure      
 Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.                   
