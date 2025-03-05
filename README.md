@@ -92,7 +92,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * LMM.m --- local minimax under fixed step-size and descent direction      
     * nm_LMM.m --- local minimax algorithm under nonmonotone step-size and descent direction        
     * inp.m --- $H$-inner product $(\cdot, \cdot)_H $ 
-    * dst2.m --- two-dimensional discrete sine Transform                
+    * dst2.m --- two-dimensional discrete sine transform                
     * idst2.m --- two-dimensional inverse discrete sine transform  
 
 ## Requirements
