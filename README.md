@@ -9,7 +9,7 @@ This repository contains the Matlab codes used to reproduce the results presente
 ## Directory structure      
 Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.                   
 - henon-1-dimension  
-  + Contains codes for computing the ground state solution of  the H\'enon equation in $\Omega = (-1,1) $ ,      
+  + Contains codes for computing the ground state solution of  the H´enon equation in $\Omega = (-1,1) $ ,      
            
     $$
        \begin{cases}        
