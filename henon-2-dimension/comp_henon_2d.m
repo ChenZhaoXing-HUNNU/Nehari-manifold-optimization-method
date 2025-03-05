@@ -1,7 +1,7 @@
 clear all;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 format long;
 %%% Use NMOM to compute the ground state solution of H\'enon equation: 
-%%% \Delta u(x,y) + sqrt{x^2+y^2}^{ l } |u(x,y)|^{p-1}=0, (x,y) \in \Omega = {(x,y):x^2+y^2<1}
+%%% \Delta u(x,y) + sqrt{x^2+y^2}^{ l } |u(x,y)|^{p-1}u(x,y)=0, (x,y) \in \Omega = {(x,y):x^2+y^2<1}
 %%% u(x,y) = 0; (x,y) \in \partial \Omega
 %% Discretization of SPECTRAL-GALERKIN METHODS
 global M N
@@ -22,7 +22,7 @@ global phi in_phi A  B C T L_phi
 %%% B(i,j) = \int_{-1}^1 1/(t+1)* phi_i * phi_j dt
 %%% C(i,j) = \int_{-1}^1 (t+1)* phi_i * phi_j dt
 %%%T(:,i) : value of i-lengendre polynomial ( L_i) in Legendre-Guass-Lobatto;
-%%% L_phi(i,j)£º\int_{-1}^{1} L_i(t) * phi_j(t) dt, L_i : i-lengendre polynomial
+%%% L_phi(i,j)Â£Âº\int_{-1}^{1} L_i(t) * phi_j(t) dt, L_i : i-lengendre polynomial
 [phi,A,B,C,in_phi,T,L_phi] = get_Amatrix(1,N,x_lgl) ; % phi_i =L_i - L_{i+2} 
 global phi0 in_phi0 A0  B0 C0 T_0 L_phi0
 [phi0,A0,B0,C0,in_phi0,T_0, L_phi0] = get_Amatrix(0,N,x_lgl); % phi_i = L_i - L_i{i+1}
