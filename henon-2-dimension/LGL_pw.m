@@ -1,5 +1,5 @@
 function [x, w] = LGL_pw(n)
-    % 初始化节点和权重数组
+%%% returns n Legendre-Gauss-Lobatto quadrature nodes and weights.
     x = legslbndm(n);
     w = zeros(n, 1);
     for k = 1:n
