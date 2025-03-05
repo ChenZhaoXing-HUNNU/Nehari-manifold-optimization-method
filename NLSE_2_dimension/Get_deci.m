@@ -1,6 +1,6 @@
 function need_str = Get_deci(a,n)
 %%% Given a decimal a, obtain the number with n decimal places and return the string   
-num = floor(a);  
+num = floor(a);
 str = num2str(num);
 len = length(str);
 str1 = num2str(a);
