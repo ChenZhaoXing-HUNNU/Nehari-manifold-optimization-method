@@ -9,7 +9,7 @@ This repository contains the Matlab codes used to reproduce the results presente
 ## Directory structure      
 Each folder in this repository corresponds to a specific numerical test, and contains the scripts required to reproduce the results. Run the main matlab file in each folder, then the corresponding numerical results can be obtained directly.                   
 - henon-1-dimension  
-  + Contains codes for computing the ground state solution of  the H´enon equation in $\Omega = (-1,1) $ ,      
+  + Contains codes for computing the ground state solution of  the Hénon equation in $\Omega = (-1,1) $ ,      
            
     $$
        \begin{cases}        
@@ -26,7 +26,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Compu_KM --- get the stiffness matrix and mass matrix by FEM discretization        
  
 - henon-2-dimension  
-  + Contains codes for computing the ground state solution of the H\'enon equation in $ \Omega =$ { $ (x,y) : x^2 + y^2 < 1 $ },                   
+  + Contains codes for computing the ground state solution of the Hénon equation in $ \Omega =$ { $ (x,y) : x^2 + y^2 < 1 $ },                   
      
     $$
     \begin{cases}      
@@ -52,7 +52,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
     * Get_deci.m --- Set the decimal place    
 
 - NLSE-2-dimension
-  + Contains the codes for computing the ground state solution of  the nonlinear Schr\"odinger equation in $\Omega = (-1,1)^2 $ ,      
+  + Contains the codes for computing the ground state solution of  the nonlinear Schrödinger equation in $\Omega = (-1,1)^2 $ ,      
     
     $$ 
     \begin{cases}      
@@ -77,7 +77,7 @@ Each folder in this repository corresponds to a specific numerical test, and con
 
 
 - Comparison_LMM_NMOM    
-  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of H\'enon equation in $\Omega = (-1,1)^2 $,            
+  + Contains the codes for comparising the efficient of LMM and NMOM in computing the ground state solutions of Hénon equation in $\Omega = (-1,1)^2 $,            
   
     $$ 
     \begin{cases} \Delta u(x,y) + |x^2+y^2|^{l/2} |u(x,y)|^{p-1}u(x,y) = 0 ,   &(x,y)\in \Omega, \\\          
