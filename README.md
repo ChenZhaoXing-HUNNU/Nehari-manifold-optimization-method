@@ -1,10 +1,9 @@
 # NMOM  
 This repository contains the Matlab codes used to reproduce the results presented in the paper 
- <center> Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs </center> <br>    
- 
 
+Nehari manifold optimization and its application for finding unstable solutions of semilinear elliptic PDEs
  
-<center> Zhaoxing Chen, Wei Liu, Ziqing Xie, and Wenfan Yi </center> 
+Zhaoxing Chen, Wei Liu, Ziqing Xie, and Wenfan Yi 
 
 https://arxiv.org/abs/2404.09892   
 
