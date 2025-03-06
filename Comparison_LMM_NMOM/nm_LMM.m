@@ -62,10 +62,6 @@ function [U_res, energy_res,iter,error] = nm_LMM(g_xy,V_0,fix_step,epsilon,p)
              phi_test= t_test*v_test; %%compute the maximum point along v_k;
              energy_k_test = 0.5*inp(phi_test,phi_test) - 1/(p+1)*dx*dy*(sum(sum(g_xy.* abs(phi_test.^(p+1) ))));
         end
-        if tag_fail ==1
-            fprintf('LMM can not find the step-size\n');
-            break
-        end
         v_k = v_test;
         phi_k = phi_test;
         t_k = t_test;
